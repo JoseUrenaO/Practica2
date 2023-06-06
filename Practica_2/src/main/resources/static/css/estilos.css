@@ -1,0 +1,101 @@
+* { 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gainsboro;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+thead tr {
+    background-color: black;
+    color: white;
+}
+
+tbody tr:nth-child(even){
+    background-color: white;
+}
+
+tbody tr:nth-child(odd){
+    background-color: white;
+}
+
+h1 {
+    font-size: 21px;
+}
+
+.header {
+    
+    background-color: red;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+}
+
+.nav-menu-link:hover {
+    background-color: pink;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.pie {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background-color: black;   
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
